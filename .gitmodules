@@ -1,0 +1,3 @@
+[submodule "components/tuya-iot-link-sdk/tuya-iot-link-sdk-embedded-c"]
+	path = components/tuya-iot-link-sdk/tuya-iot-link-sdk-embedded-c
+	url = https://github.com/tuya/tuya-iot-link-sdk-embedded-c.git
