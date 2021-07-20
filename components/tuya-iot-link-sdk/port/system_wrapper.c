@@ -52,6 +52,11 @@ void system_sleep( uint32_t time_ms )
     vTaskDelay(time_ms / portTICK_PERIOD_MS);
 }
 
+uint32_t system_random(void)
+{
+    return (uint32_t)(0xffffffff & rand());
+}
+
 #ifdef __cplusplus
 }
 #endif
