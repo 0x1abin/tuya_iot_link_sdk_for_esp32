@@ -34,7 +34,7 @@ void  system_free(void *ptr)
 
 uint32_t system_ticks( void )
 {
-    TickType_t ticks = xTaskGetTickCount();
+    TickType_t ticks = xTaskGetTickCount() * portTICK_PERIOD_MS;
     return ( uint32_t ) ticks;
 }
 
